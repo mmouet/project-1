@@ -1,0 +1,365 @@
+/* Michael Mouet's Website CSS*/
+
+
+/* Types*/
+
+
+body {
+	background-color: white;
+	margin: 0px;
+	font-family: arial;
+}
+
+header {
+	background-color: lightgoldenrodyellow;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	}
+
+section {
+	display: flex;
+
+}
+
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+}
+
+
+ul {
+	list-style: none;
+}
+
+
+/* Classes*/
+
+
+
+.nav-logo {
+	display: flex;
+}
+
+.website-name {
+	align-self: center;
+}
+
+.logo {
+	width: auto;
+	height: 75px;
+}
+
+.nav-links-parent {
+
+}
+
+.nav-links-list {
+	display: flex;
+	}
+
+.nav-links {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+
+}
+
+.container-home-image {
+	display: flex;
+	margin: 20px 10vw 0px 10vw;
+	justify-content: center;
+	border: 5px solid navajowhite;
+}
+
+.home-content {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: indianred;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.customize-header {
+	align-items: flex-end;
+	color: navajowhite;
+	align-self: flex-end;
+}
+
+.customize-p {
+	text-transform: uppercase;
+	font-family: arial;
+	color: navajowhite;
+	margin: 0px 0px ;
+	text-align: center;
+	padding: 0px 50px;
+}
+
+.home-image {
+	display: flex;
+	width: auto;
+	height: 50vh;
+}
+
+.section-2 {
+	background-color: lightyellow;
+}
+
+.pizza {
+	
+}
+
+.container-testimonials {
+	display: flex;
+	padding: 50px 10vw 0px 10vw;
+}
+
+.title {
+
+}
+
+.testimonials {
+	flex-direction: column;
+}
+
+.h2-middle {
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.p-content {
+	text-align: left;
+	padding: 0px 50px 0px 0px;
+}
+
+.quote {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0px 75px 0px 0px;
+}
+
+.container-cards {
+	padding: 0px 10vw;
+}
+
+.cards-header {
+	padding: 10px 0px;
+}
+
+.cards-parent {
+	display: flex;
+}
+
+.cards {
+	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 1vw;
+}
+
+.cards-image {
+	width: auto;
+	max-height: 14vh;
+	object-fit: cover;
+	padding: 20px 0px 0px 0px;
+}
+
+.cards-p {
+	text-align: center;
+	padding: 0px 25px;
+}
+
+.button {
+	border: 1px solid indianred;
+	border-radius: 7px;
+	padding: 7px;
+	text-transform: uppercase;
+	color: white;
+	background-color: indianred;
+}
+
+
+/* IDs*/
+
+
+#cards-margin {
+	margin: 
+}
+
+#cards-margin-2{
+	margin: 
+}
+
+
+
+
+
+
+
+
+/* Small Screen Queries*/
+
+
+
+
+
+/* 1200px */
+
+ @media only screen and (max-width: 1200px) {
+
+
+.website-name {
+	align-self: center;
+	padding: 0px 0px 0px 10px;
+}
+
+.container-home-image {
+	display: flex;
+	margin: 20px 0vw 0px 0vw;
+}
+
+.customize-p {
+	text-transform: uppercase;
+	color: navajowhite;
+	margin: 0px 0px ;
+	text-align: center;
+	padding: 0px 1vw;
+}
+
+.home-image {
+	  display: flex;
+		width: auto;
+		height: 25vh;
+}
+
+.container-testimonials {
+	display: flex;
+	padding: 50px 5vw 0px 5vw
+}
+
+.container-cards {
+	padding: 0px 0px;
+}
+
+.cards-header {
+	padding: 10px 10px;
+}
+
+.cards-image {
+	max-height: 10vh;
+}
+
+
+}
+
+
+
+
+
+
+
+/* 650px */
+
+ @media only screen and (max-width: 650px) {
+  
+
+  /* Types */
+
+
+  nav {
+  	display: block;
+  }
+    
+  section {
+  	display: block;
+  }  
+
+  
+  /* Classes */
+
+
+  .nav-logo {
+  	justify-content: center;
+  }
+
+  .nav-links-list {
+  	display: block;
+  	margin: 0px;
+  	padding: 0px;
+  }
+
+  .container-home-image {
+  	display: block;
+  	margin: 0px;
+  	padding: 10px;
+  	flex-direction: row;
+  	justify-content: flex-start;
+  	background-color: indianred;
+  }
+  
+  .customize-header {
+  	margin: 0px;
+  }
+
+  .customize-p {
+  	margin: 0px;
+  	padding: 10px;
+  }
+ 
+  .home-image {
+  	height: 10em;
+  	justify-content: center;
+  }
+
+  .container-testimonials {
+  	display: block;
+  	padding: 50px;
+  }
+ 
+  .p-content {
+  	padding: 0px;
+  }
+
+  .container-cards {
+  	padding: 0px;
+  }
+
+  .cards-header {
+  	padding: 0px 10px;
+  }
+
+  .cards-parent {
+  	display: block;
+  }
+
+	.cards {
+		margin: 0px 0vw;
+	}
+
+  .cards-image {
+  	max-width: 198px;
+	  height: 15vh;
+	  max-height: none;
+  }
+
+
+  /* IDs */
+
+  #cards-margin {
+  	margin: 0px 0px 0px 0px;
+  }
+
+  #cards-margin-2 {
+  	margin: 0px 0px 0px 0px;
+  }
+
+
+}
+
